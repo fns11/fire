@@ -118,7 +118,7 @@ elif choose == "Blog":
                     response = st_text_rater(text=text, key='2')
 
             st.write('---')
-            feature_image3 = Image.open(r'C:\Users\13525\Desktop\Insights Bees\streamlit_website\Images\feature_image2.png')
+            feature_image3 = Image.open('demo_image2.png')
             with st.container():
                 image_col, text_col = st.columns((1,3))
                 with image_col:
