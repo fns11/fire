@@ -55,7 +55,7 @@ elif choose == "Blog":
             st.markdown(pdf_display, unsafe_allow_html=True)
         
         if topic=='Pandas':
-            feature_image1 = Image.open(r'C:\Users\13525\Desktop\Insights Bees\streamlit_website\Images\feature_image1.jpg')
+            feature_image1 = Image.open('demo_image2.png')
             with st.container():
                 image_col, text_col = st.columns((1,3))
                 with image_col:
