@@ -21,7 +21,7 @@ with st.sidebar:
     )
 
 logo = Image.open('demo_image1.png')
-profile = Image.open(r'C:\Users\13525\Desktop\medium_profile.png')
+profile = Image.open('demo_image2.png')
 if choose == "About":
     col1, col2 = st.columns( [0.8, 0.2])
     with col1:               # To display the header text using css style
