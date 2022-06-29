@@ -69,12 +69,12 @@ elif choose == "Blog":
 
             col1, col2,col3= st.columns(3)
             with col1:  
-                if st.button('Read PDF Tutorial',key='1'):            
-                    show_pdf('https://drive.google.com/file/d/1HJOFbxT1_e2Eh39JdFCuNS6b9HJKt6my/view?usp=sharing')
+            if st.button('Read PDF Tutorial',key='1'):            
+                    show_pdf('post1-compressed.pdf')
             with col2:
                 st.button('Close PDF Tutorial',key='2')                   
             with col3:
-                with open('pandas-clean-id-column.pdf') as pdf_file:
+                with open("post1-compressed.pdf", "rb") as pdf_file:
                     PDFbyte = pdf_file.read()
                 st.download_button(label="Download PDF Tutorial", key='3',
                         data=PDFbyte,
