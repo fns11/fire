@@ -74,7 +74,7 @@ elif choose == "Blog":
             with col2:
                 st.button('Close PDF Tutorial',key='2')                   
             with col3:
-                with open('https://drive.google.com/file/d/1HJOFbxT1_e2Eh39JdFCuNS6b9HJKt6my/view?usp=sharing') as pdf_file:
+                with open('pandas-clean-id-column.pdf') as pdf_file:
                     PDFbyte = pdf_file.read()
                 st.download_button(label="Download PDF Tutorial", key='3',
                         data=PDFbyte,
