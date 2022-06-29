@@ -96,7 +96,7 @@ elif choose == "Blog":
                     font-size:22px ; font-family: 'Black'; color: #FFFFF;} 
                     </style> """, unsafe_allow_html=True)
                     st.markdown('<p class="font">How to Batch Rename Columns in Pandas Based on Patterns</p>', unsafe_allow_html=True)    
-                    st.markdown("By Sharone Li - If you have been following my Medium blog for some time, you may notice that I usually like to share... [Continue to Read on CodeX](https://medium.com/codex/how-to-batch-rename-columns-in-pandas-based-on-patterns-7d2382b5fc9a)")
+                    st.markdown("By Sharone Li - If you have been following my Medium blog for some time, you may notice that I usually like to share... [Continue to Read on CodeX](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:8552d95f-2317-4b8d-a1c7-2b22e7aa7dfa)")
                    
             col1, col2,col3 = st.columns(3)
             with col1: 
