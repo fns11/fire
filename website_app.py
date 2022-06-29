@@ -65,7 +65,7 @@ elif choose == "Blog":
                     font-size:22px ; font-family: 'Black'; color: #FFFFF;} 
                     </style> """, unsafe_allow_html=True)
                     st.markdown('<p class="font">Clean a ‘Numeric’ ID Column in Pandas Dataframe</p>', unsafe_allow_html=True)    
-                    st.markdown("By Sharone Li - As a data scientist, you must have encountered this problem at least once in your data science journey: you import your data into a Pandas dataframe... [Continue to Read on Towards Data Science](https://towardsdatascience.com/clean-a-numeric-id-column-in-pandas-dataframe-fbe03c11e330)")
+                    st.markdown("By Sharone Li - As a data scientist, you must have encountered this problem at least once in your data science journey: you import your data into a Pandas dataframe... [Continue to Read on Towards Data Science](https://drive.google.com/file/d/1HJOFbxT1_e2Eh39JdFCuNS6b9HJKt6my/view?usp=sharing)")
 
             col1, col2,col3= st.columns(3)
             with col1:  
