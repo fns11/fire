@@ -32,30 +32,40 @@ if choose == "About":
     with col2:               # To display brand log
         st.image(logo, width=130 )
   
-st.container() 
-<div class="container">
-  <form action="action_page.php">
+     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
+    contact_form = """
+    <form action="https://formsubmit.co/dominica.hewett@uwforsyth.org" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" placeholder="Your message here" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+    """
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+#<div class="container">
+  #<form action="action_page.php">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    #<label for="fname">First Name</label>
+    #<input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
+    #<label for="lname">Last Name</label>
+    #<input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    #<label for="country">Country</label>
+    #<select id="country" name="country">
+      #<option value="australia">Australia</option>
+      #<option value="canada">Canada</option>
+      #<option value="usa">USA</option>
+    #</select>
 
-    <input type="submit" value="Submit">
+    #<label for="subject">Subject</label>
+    #<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-  </form>
-</div>
+    #<input type="submit" value="Submit">
+
+  #</form>
+#</div>
     
     st.write("Sharone Li is a data science practitioner, enthusiast, and blogger. She writes data science articles and tutorials about Python, data visualization, Streamlit, etc. She is also an amateur violinist who loves classical music.\n\nTo read Sharone's data science posts, please visit her Medium blog at: https://medium.com/@insightsbees")    
     st.image(profile, width=400 )
