@@ -19,7 +19,7 @@ with st.sidebar:
         "nav-link-selected": {"background-color": "#24A608"},
     }
     )
- contact_form = """
+     contact_form = """
     <form action="https://formsubmit.co/dominica.hewett@uwforsyth.org" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
