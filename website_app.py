@@ -33,7 +33,7 @@ if choose == "About":
         st.image(logo, width=130 )
   
      # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
-    def contact_form:
+    
     contact_form = """
     <form action="https://formsubmit.co/dominica.hewett@uwforsyth.org" method="POST">
         <input type="hidden" name="_captcha" value="false">
