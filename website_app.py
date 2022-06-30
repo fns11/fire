@@ -58,9 +58,13 @@ with st.sidebar:
         "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
         "nav-link-selected": {"background-color": "#080000"},
         },orientation='horizontal'
-        ) 
+        )
+    
+    
+    
+    
 
-        st.write('')
+    st.write('')
         def show_pdf(file_path):
             with open(file_path,"rb") as f:
                 base64_pdf = base64.b64encode(f.read()).decode('utf-8')
