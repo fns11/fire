@@ -33,7 +33,7 @@ if choose == "About":
         st.image(logo, width=130 )
     
     st.write("Sharone Li is a data science practitioner, enthusiast, and blogger. She writes data science articles and tutorials about Python, data visualization, Streamlit, etc. She is also an amateur violinist who loves classical music.\n\nTo read Sharone's data science posts, please visit her Medium blog at: https://medium.com/@insightsbees")    
-    st.image(profile, width=700 )
+    st.image(profile, width=400 )
 
 elif choose == "Blog": 
         topic = option_menu(None, ["Streamlit", "Pandas","Plotly", "Folium"],
