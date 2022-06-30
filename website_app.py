@@ -32,7 +32,7 @@ if choose == "About":
     with col2:               # To display brand log
         st.image(logo, width=130 )
   
-with st.container()
+st.container()
         <div class="container">
   <form action="action_page.php">
 
