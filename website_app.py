@@ -19,7 +19,15 @@ with st.sidebar:
         "nav-link-selected": {"background-color": "#24A608"},
     }
     )
-
+ contact_form = """
+    <form action="https://formsubmit.co/dominica.hewett@uwforsyth.org" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" placeholder="Your message here" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+    """
 logo = Image.open('demo_image1.png')
 profile = Image.open('demo_image2.png')
 if choose == "About":
@@ -33,17 +41,7 @@ if choose == "About":
         st.image(logo, width=130 )
   
      # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
-    
- contact_form = """
-    <form action="https://formsubmit.co/dominica.hewett@uwforsyth.org" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="text" name="name" placeholder="Your name" required>
-        <input type="email" name="email" placeholder="Your email" required>
-        <textarea name="message" placeholder="Your message here" required></textarea>
-        <button type="submit">Send</button>
-    </form>
-    """
-
+   
 #<div class="container">
   #<form action="action_page.php">
 
